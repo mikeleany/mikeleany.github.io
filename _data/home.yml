@@ -1,0 +1,78 @@
+navbar_entries:
+  - title: home
+    url: /
+
+  - title: portfolio
+    url: /#Portfolio
+
+  - title: blog
+    url: /#Blog Posts
+
+  - title: about
+    url: about
+
+project_entries:
+  - title: The Aleph Operating System
+    url: https://github.com/mikeleany/aleph-os
+    desc: A hobby operating system written in Rust and the successor to Myros
+
+  - title: Myros
+    url: https://github.com/mikeleany/myros
+    desc: "\"My Rust Operating System;\" a hobby operating system written in Rust"
+
+  - title: Tinman
+    url: https://github.com/mikeleany/tinman
+    desc: My new chess engine written in Rust
+
+  - title: Vapor
+    url: http://vapor.mikeleany.com/
+    desc: My old chess engine written in C
+
+old_project_entries:
+  - title: Vapor
+    url: http://vapor.mikeleany.com/
+    desc: My old chess engine written in C
+
+footer_entries:
+  - title: github
+    url: https://github.com/mikeleany
+
+  - title: linkedin
+    url: https://www.linkedin.com/in/mike-leany-872271228/
+
+  - title: feed
+    url: feed.xml
+
+misc_entries:
+  - title: this is an example vertical list
+    url: false
+
+  - title: you can show or hide using a boolean flag in _config.yml
+    url: false
+
+  - title: and you can add data in _data/home.yml
+    url: false
+
+  - title: Blog posts
+    post_list: true
+    url: false
+
+  - title: moonwalk on the Internet
+    url: false
+    entries:
+      - title: on Github
+        url: https://github.com/abhinavs/moonwalk
+
+      - title: originally built for abhinav's homepage
+        url: https://www.abhinav.co
+
+      - title: this list is scalable and can be nested
+        url: false
+        entries:
+          - title: this is nested inside a nested list
+            url: false
+
+          - title: it is easy to use, see _data/home.yml to see how to configure it.
+            url: false
+
+
